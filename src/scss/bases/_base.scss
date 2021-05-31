@@ -1,0 +1,41 @@
+$wedgewood:#4E819D;
+$breaker-bay:#619C9D;
+$tower-gray:#AEBDC0;
+$concrete:#F3F3F3;
+$scorpionapprox:#5E5E5E;
+$athens-gray:#F4F4F5;
+
+
+h1,h2,h3{
+  font-weight: bold;
+  font-family: "Noto Sans TC",sans-serif;
+  color: #4E819D;
+  margin: 0;
+}
+
+h4,h5,h6{
+  font-family: "Noto Sans TC",sans-serif;
+  font-weight: normal;
+}
+
+a,p{
+  font-family: "Noto Serif JP",sans-serif;
+  text-decoration: none;
+}
+
+ol, ul {
+  padding:0;
+  margin:0;
+	list-style: none;
+}
+
+image {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.container.container-custom-width {
+  max-width: 1170px;       
+}
+
