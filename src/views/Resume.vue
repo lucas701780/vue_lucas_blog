@@ -3,7 +3,7 @@
     <div class="col-12 col-lg-10 d-flex flex-column mt-4 mt-lg-0 about-me" ref="about-me-ref">
       <h3 class="pb-3 text-center text-lg-start">About me 關於我</h3>
       <p class="lh-lg">
-        資訊系背景，主要專攻網頁切版和ios手機應用程式開發。目前著重於研究前端領域，曾參與品牌形象官網、網站後台建置、...等的專案開發與頁面設計。
+        資訊系背景，主要專攻網頁切版和IOS手機應用程式開發。目前著重於研究前端領域，曾參與品牌形象官網、網站後台建置等的專案開發與頁面設計。
         <br />
         <br />
         主要使用 Vue.js 開發，負責 API 串接、畫面動態效果、主題色彩配置、設計稿切版...等。
@@ -105,7 +105,7 @@
           <h6>Sep, 2018 ~ Present</h6>
           <ul class="work-list">
             <li>根據推廣的活動或是新功能進行行銷與推廣頁面切版</li>
-            <li>新功發想與提案，與團隊規劃完整流程圖。如月老廟交友配對、一對一聊天等。</li>
+            <li>新功能發想與提案，與團隊規劃完整流程圖。如月老廟交友配對、一對一聊天等。</li>
             <li>與後端討論資料庫設計，撰寫 RESTful API 文件 ( Swagger )，以進行串接。</li>
             <li>IOS手機應用使用 xib、nib 根據Zeplin上的設計圖進行自定義畫面制作。</li>
             <li>IOS手機應用使用 RxSwift 進行流程控制， Sourcetree 進行版本控制外加使用 CocoaPods 安裝第三方套件進行開發。</li>

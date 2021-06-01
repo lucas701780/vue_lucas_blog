@@ -5,4 +5,5 @@ import store from "./store";
 import "./scss/all.scss";
 import VueStickyDirective from '@renatodeleao/vue-sticky-directive'
 
+
 createApp(App).use(store).use(router).use(VueStickyDirective).mount("#app");

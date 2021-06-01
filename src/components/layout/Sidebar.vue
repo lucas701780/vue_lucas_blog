@@ -5,18 +5,18 @@
     </div>
     <div class="card-body">
       <h5 class="card-title text-center">張光明</h5>
-      <ul class="list-group list-group-flush d-flex flex-row flex-sm-row flex-md-row flex-lg-column justify-content-between justify-content-lg-center">
-        <li class="list-group-item flex-fill">
+      <ul class="list-group list-group-flush d-flex flex-row flex-sm-row flex-md-row flex-lg-column justify-content-center">
+        <li class="list-group-item">
           <a href="javascript:void(0)" @click="goResumePostion('about-me')" class="d-block"> <i class="fa fa-user pe-3" aria-hidden="true"></i>關於我</a>
         </li>
-        <li class="list-group-item flex-fill">
+        <li class="list-group-item">
           <a href="javascript:void(0)" @click="goResumePostion('skill')" class="d-block"> <i class="fa fa-file-text pe-2" aria-hidden="true"></i> 我的技能</a>
         </li>
-        <li class="list-group-item flex-fill">
+        <li class="list-group-item">
           <a href="javascript:void(0)" class="d-block" @click="goResumePostion('work')"> <i class="fa fa-rocket pe-2" aria-hidden="true"></i> 工作經歷</a>
         </li>
-        <li class="list-group-item flex-fill">
-          <a href="javascript:void(0)" class="d-block" @click="goResumePostion('work')"> <i class="fa fa-thumbs-up  pe-2" aria-hidden="true"></i> 我的作品</a>
+        <li class="list-group-item">
+          <a href="javascript:void(0)" class="d-block" @click="goResumePostion('work')"> <i class="fa fa-thumbs-up pe-2" aria-hidden="true"></i> 我的作品</a>
         </li>
       </ul>
     </div>
@@ -47,8 +47,7 @@ a {
 li {
   border: 0px;
 }
-i{
-  
+i {
 }
 h5 {
   @include media-breakpoint-down(lg) {
@@ -90,12 +89,10 @@ h5 {
     padding: 8px;
   }
 }
-.list-group {
-  width: 120px;
-  margin: 0px auto;
+.list-group-item {
   @include media-breakpoint-down(lg) {
-    width: 70%;
-    padding:8px 20px 0px 20px;
+    width: 44px;
+    height: 44px;
   }
 }
 .card-title,
