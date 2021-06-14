@@ -16,7 +16,7 @@
           <a href="javascript:void(0)" class="d-block" @click="goResumePostion('work')"> <i class="fa fa-rocket pe-2" aria-hidden="true"></i> 工作經歷</a>
         </li>
         <li class="list-group-item">
-          <a href="javascript:void(0)" class="d-block" @click="goResumePostion('work')"> <i class="fa fa-thumbs-up pe-2" aria-hidden="true"></i> 我的作品</a>
+          <a href="javascript:void(0)" class="d-block" @click="goResumePostion('web')"> <i class="fa fa-thumbs-up pe-2" aria-hidden="true"></i> 我的作品</a>
         </li>
       </ul>
     </div>
@@ -56,6 +56,7 @@ h5 {
 }
 .card {
   @include media-breakpoint-down(lg) {
+    // position:inherit;
     border: 0px;
     background-color: #90a8aa;
   }

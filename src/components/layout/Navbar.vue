@@ -1,10 +1,10 @@
 <template lang="">
   <nav class="backdrop-blur shadow-md">
     <div class="container container-custom-width d-flex flex-row justify-content-between">
-      <router-link to="/home/resume"> <h1 class="p-3"><a href="">Lucas Blog</a></h1></router-link>
+      <router-link to="/home/resume"> <h1 class="p-3"><a href="">Lucas Resume</a></h1></router-link>
       <ul class="d-flex flex-row p-0 navList">
         <li class="p-3 navItem"> <router-link to="/home/resume">個人頁</router-link></li>
-        <li class="p-3 navItem"><a href="">程式筆記</a></li>
+        <!-- <li class="p-3 navItem"><a href="">程式筆記</a></li> -->
       </ul>
     </div>
   </nav>
