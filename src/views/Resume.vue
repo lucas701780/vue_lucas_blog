@@ -1,12 +1,16 @@
 <template lang="">
   <div class="row">
-    <div class="col-12 col-lg-10 d-flex flex-column mt-4 mt-lg-0 about-me" ref="about-me-ref">
+    <div
+      class="col-12 col-lg-10 d-flex flex-column mt-4 mt-lg-0 about-me"
+      ref="about-me-ref"
+    >
       <h3 class="pb-3 text-center text-lg-start">About me 關於我</h3>
       <p class="lh-lg">
         資訊系背景，主要專攻網頁切版和IOS手機應用程式開發。目前著重於研究前端領域，曾參與品牌形象官網、網站後台建置等的專案開發與頁面設計。
         <br />
         <br />
-        主要使用 Angular 開發，負責 API 串接、畫面動態效果、主題色彩配置、設計稿切版...等。
+        主要使用 Angular 開發，負責 API
+        串接、畫面動態效果、主題色彩配置、設計稿切版...等。
         <!-- <br /> -->
         CSS 框架主要使用 Bootstrap 內的 Components 和 utilites 進行開發。
       </p>
@@ -97,17 +101,34 @@
     </div>
 
     <div class="col-12 col-lg-10 d-flex flex-column mt-4 work" ref="work_ref">
-      <h3  class="py-3">Work Experience 工作經歷</h3>
+      <h3 class="py-3">Work Experience 工作經歷</h3>
       <ul class="d-flex flex-column">
         <li class="work-point work-line work-point-border-active">
+          <h5>新加坡商合眾科技顧問有限公司</h5>
+          <h6>Sep, 2021 ~ Present</h6>
+          <ul class="work-list">
+            <li>根據公司客戶需求開發商業應用App</li>
+          </ul>
+        </li>
+        <li class="work-point work-line">
           <h5>爆料公社股份有限公司</h5>
-          <h6>Sep, 2018 ~ Present</h6>
+          <h6>Sep, 2018 ~ Sep,2021</h6>
           <ul class="work-list">
             <li>根據推廣的活動或是新功能進行行銷與推廣頁面切版</li>
-            <li>新功能發想與提案，與團隊規劃完整流程圖。如月老廟交友配對、一對一聊天等。</li>
-            <li>與後端討論資料庫設計，撰寫 RESTful API 文件 ( Swagger )，以進行串接。</li>
-            <li>IOS手機應用使用 xib、nib 根據Zeplin上的設計圖進行自定義畫面制作。</li>
-            <li>IOS手機應用使用 RxSwift 進行流程控制， Sourcetree 進行版本控制外加使用 CocoaPods 安裝第三方套件進行開發。</li>
+            <li>
+              新功能發想與提案，與團隊規劃完整流程圖。如月老廟交友配對、一對一聊天等。
+            </li>
+            <li>
+              與後端討論資料庫設計，撰寫 RESTful API 文件 ( Swagger
+              )，以進行串接。
+            </li>
+            <li>
+              IOS手機應用使用 xib、nib 根據Zeplin上的設計圖進行自定義畫面制作。
+            </li>
+            <li>
+              IOS手機應用使用 RxSwift 進行流程控制， Sourcetree
+              進行版本控制外加使用 CocoaPods 安裝第三方套件進行開發。
+            </li>
           </ul>
         </li>
 
@@ -115,8 +136,13 @@
           <h5>Gate5車體鍍膜股份有限公司 - 軟體工程師</h5>
           <h6>Sep, 2017 - Sep, 2018</h6>
           <ul class="work-list">
-            <li>根據洗車場需求，進行心智圖與流程圖與資料庫設計，來開發應用程式，增進洗車場與客戶的黏著度。</li>
-            <li>開發 Gate5 形象網頁，與後台訂單管理系統，使用Bootstrap 框架進行刻板。</li>
+            <li>
+              根據洗車場需求，進行心智圖與流程圖與資料庫設計，來開發應用程式，增進洗車場與客戶的黏著度。
+            </li>
+            <li>
+              開發 Gate5 形象網頁，與後台訂單管理系統，使用Bootstrap
+              框架進行刻板。
+            </li>
             <li>開發 Gate5 客戶預約APP與 Gate5洗車廠師傅訂單管理App。</li>
           </ul>
         </li>
@@ -128,6 +154,24 @@
     <h3 id="web-title" class="py-3">Web 網頁作品</h3>
     <ul class="work-body d-flex flex-column">
       <li class="mb-5">
+        <a
+          class="web-sub d-flex"
+          href="https://apps.apple.com/tw/app/%E7%88%86%E6%96%99%E5%85%AC%E7%A4%BE/id1387765782"
+        >
+          <div class="web-sub-img me-4">
+            <img class="shadow-md" :src="imageBoomHome" />
+          </div>
+          <div class="web-sub-body d-flex flex-column">
+            <h5 class="mb-3">爆料公社App</h5>
+            <ul class="web-sub-body-list">
+              <li>根據設計稿使用xib、nib進行介面撰寫、刻板。</li>
+              <li>使用 Rxswift 進行流程控制。</li>
+              <li>使用 CocoaPods 安裝第三方套件進行開發。</li>
+            </ul>
+          </div>
+        </a>
+      </li>
+      <li class="mb-5">
         <a class="web-sub d-flex" href="https://poaich.org/">
           <div class="web-sub-img me-4">
             <img class="shadow-md" :src="imagePoaichHome" />
@@ -135,8 +179,13 @@
           <div class="web-sub-body d-flex flex-column">
             <h5 class="mb-3">嘉義博愛教會網站</h5>
             <ul class="web-sub-body-list">
-              <li>本專案使用 Angular 框架進行開發，搭配SSR (Server-Side-Rendering) 強化SEO搜尋。</li>
-              <li>網頁使用 Google Cloud Platform 的 Google Cloud Run 進行部署</li>
+              <li>
+                本專案使用 Angular 框架進行開發，搭配SSR (Server-Side-Rendering)
+                強化SEO搜尋。
+              </li>
+              <li>
+                網頁使用 Google Cloud Platform 的 Google Cloud Run 進行部署
+              </li>
             </ul>
           </div>
         </a>
@@ -152,21 +201,6 @@
               <li>後台包含新增、修改、刪除文章等功能。</li>
               <li>API 撰寫使用 Node.js 下 Express 框架進行開發。</li>
               <li>伺服器使用 Google Cloud Run 進行部署</li>
-            </ul>
-          </div>
-        </a>
-      </li>
-      <li class="mb-5">
-        <a class="web-sub d-flex" href="https://apps.apple.com/tw/app/%E7%88%86%E6%96%99%E5%85%AC%E7%A4%BE/id1387765782" >
-          <div class="web-sub-img me-4">
-            <img class="shadow-md" :src="imageBoomHome" />
-          </div>
-          <div class="web-sub-body d-flex flex-column">
-            <h5 class="mb-3">爆料公社App</h5>
-            <ul class="web-sub-body-list">
-              <li>根據設計稿使用xib、nib進行介面撰寫、刻板。</li>
-              <li>使用 Rxswift 進行流程控制。</li>
-              <li>使用 CocoaPods 安裝第三方套件進行開發。</li>
             </ul>
           </div>
         </a>
@@ -190,7 +224,10 @@
       </li>
 
       <li class="mb-5">
-        <a class="web-sub d-flex" href="https://lucas701780.github.io/gate5_home/">
+        <a
+          class="web-sub d-flex"
+          href="https://lucas701780.github.io/gate5_home/"
+        >
           <div class="web-sub-img me-4">
             <img class="shadow-md" :src="imageGate5Home" />
           </div>
@@ -208,16 +245,16 @@
 </template>
 
 <script>
-import imagePoaichHome from '@/assets/img/poaich-home.png';
-import imagePoaichBackstage from '@/assets/img/poaich-backstage.png';
-import imageGulpGlassesDesign from '@/assets/img/gulp-glasses-design.png';
-import imageGate5Home from '@/assets/img/gate5-home.png';
-import imageBoomHome from '@/assets/img/boom.png';
+import imagePoaichHome from "@/assets/img/poaich-home.png";
+import imagePoaichBackstage from "@/assets/img/poaich-backstage.png";
+import imageGulpGlassesDesign from "@/assets/img/gulp-glasses-design.png";
+import imageGate5Home from "@/assets/img/gate5-home.png";
+import imageBoomHome from "@/assets/img/boom.png";
 export default {
-  name: 'Resume',
+  name: "Resume",
   data() {
     return {
-      currentKey: 'ref1',
+      currentKey: "ref1",
       itemOffsetTop: [],
       firstOffsetTop: 0,
       imagePoaichHome: imagePoaichHome,
@@ -229,7 +266,7 @@ export default {
   },
 
   methods: {},
-  mounted() {}
+  mounted() {},
 };
 </script>
 <style scoped lang="scss">
@@ -259,7 +296,7 @@ img {
 
 // 設定原點
 .point:before {
-  content: '';
+  content: "";
   width: 8px;
   height: 8px;
   position: absolute;
@@ -272,7 +309,7 @@ img {
 /* 設定動畫 */
 .point-flicker:before,
 .point-flicker:after {
-  content: '';
+  content: "";
   width: 8px;
   height: 8px;
   position: absolute;
@@ -314,7 +351,7 @@ img {
 }
 
 .work-point::before {
-  content: '';
+  content: "";
   width: 18px;
   height: 18px;
   position: absolute;
@@ -334,7 +371,7 @@ img {
 }
 
 .work-line::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0px;
   left: 0px;
