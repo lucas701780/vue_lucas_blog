@@ -112,7 +112,7 @@
         </li>
         <li class="work-point work-line">
           <h5>爆料公社股份有限公司</h5>
-          <h6>Sep, 2018 ~ Sep,2021</h6>
+          <h6>Sep, 2018 ~ Sep, 2021</h6>
           <ul class="work-list">
             <li>根據推廣的活動或是新功能進行行銷與推廣頁面切版</li>
             <li>
@@ -151,7 +151,7 @@
   </div>
 
   <div class="col-12 col-lg-10 d-flex flex-column mt-4 web" ref="web_ref">
-    <h3 id="web-title" class="py-3">Web 網頁作品</h3>
+    <h3 id="web-title" class="py-3">Portfolio 作品集</h3>
     <ul class="work-body d-flex flex-column">
       <li class="mb-5">
         <a
