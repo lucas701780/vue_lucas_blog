@@ -6,10 +6,13 @@
     >
       <h3 class="pb-3 text-center text-lg-start">About me 關於我</h3>
       <p class="lh-lg">
-        資訊系背景，主要專攻網頁切版和IOS手機應用程式開發。目前著重於研究前端領域，曾參與品牌形象官網、網站後台建置等的專案開發與頁面設計。
+        資訊系背景，主要專攻於 iOS 手機應用程式開發與網頁切版。目前著重於 iOS 領域，曾開發經營單日三萬人社群軟體、直播軟體、小型網站前後台建置等的專案開發與頁面設計。
         <br />
         <br />
-        主要使用 Angular 開發，負責 API
+        iOS 端主要使用 Swift 與 Objective-C 進行維護與開發。架構建置主要使用 MVC 與 MVVM 架構。可根據需求所提供的 API 文件進行串接並且根據設計稿進行頁面設計。
+        <br />
+        <br />
+        前端主要使用 Angular 開發，負責 API
         串接、畫面動態效果、主題色彩配置、設計稿切版...等。
         <!-- <br /> -->
         CSS 框架主要使用 Bootstrap 內的 Components 和 utilites 進行開發。
@@ -64,13 +67,25 @@
       <h3 class="py-3">Skill 技能</h3>
       <ul class="d-flex justify-content-between row">
         <li class="py-2 point point-flicker col-6 col-sm-6 col-md-6 col-lg-3">
+          <h5>IOS</h5>
+          <hr />
+          <ul>
+            <li class="py-1">Swift</li>
+            <li class="py-1">RxSwift</li>
+            <li class="py-1">Objective-C</li>
+            <li class="py-1">MVC / MVVM</li>
+            <li class="py-1">API / JSON Parse</li>
+          </ul>
+        </li>
+        <li class="py-2 point point-flicker col-6 col-sm-6 col-md-6 col-lg-3">
           <h5>網頁前端</h5>
           <hr />
           <ul>
+            <li class="py-1">Vue / Angular</li>
+            <li class="py-1">WordPress</li>
             <li class="py-1">HTML / CSS / SASS</li>
             <li class="py-1">BootStrap 5</li>
             <li class="py-1">REST API / AJAX</li>
-            <li class="py-1">Vue / Angular</li>
           </ul>
         </li>
         <li class="py-2 point point-flicker col-6 col-sm-6 col-md-6 col-lg-3">
@@ -80,21 +95,13 @@
             <li class="py-1">Node.js / Express.js</li>
           </ul>
         </li>
-        <li class="py-2 point point-flicker col-6 col-sm-6 col-md-6 col-lg-3">
-          <h5>IOS</h5>
-          <hr />
-          <ul>
-            <li class="py-1">Swift</li>
-            <li class="py-1">RxSwift</li>
-            <li class="py-1">API / JSON Parse</li>
-          </ul>
-        </li>
         <li class="py-2 point point-flicker col-6 col-md-6 col-lg-3">
           <h5>其他</h5>
           <hr />
           <ul>
             <li class="py-1">Friebase</li>
             <li class="py-1">Google Cloud</li>
+            <li class="py-1">环信全球消息云</li>
           </ul>
         </li>
       </ul>
@@ -104,17 +111,27 @@
       <h3 class="py-3">Work Experience 工作經歷</h3>
       <ul class="d-flex flex-column">
         <li class="work-point work-line work-point-border-active">
-          <h5>新加坡商合眾科技顧問有限公司</h5>
-          <h6>Sep, 2021 ~ Present</h6>
+          <h5>新加坡商海宇顧問服務有限公司</h5>
+          <h6>Aug, 2021 ~ Present</h6>
           <ul class="work-list">
-            <li>根據公司客戶需求開發商業應用App</li>
+            <li>
+              開發 CRM 商業應用 App 與 東南亞直播應用 App。
+            </li>
+            <li>
+              iOS 手機應用畫面使用 Snapkit 與 Masonry 根據設計圖純 code 進行自定義畫面制作。
+            </li>
+             <li>
+              iOS 手機應用使用 Swift 與 Objective-C 混編開發。
+            </li>
           </ul>
         </li>
         <li class="work-point work-line">
           <h5>爆料公社股份有限公司</h5>
-          <h6>Sep, 2018 ~ Sep, 2021</h6>
+          <h6>Sep, 2018 ~ AUG, 2021</h6>
           <ul class="work-list">
-            <li>根據推廣的活動或是新功能進行行銷與推廣頁面切版</li>
+            <li>
+              根據推廣的活動或是新功能進行行銷與推廣頁面切版
+            </li>
             <li>
               新功能發想與提案，與團隊規劃完整流程圖。如月老廟交友配對、一對一聊天等。
             </li>
@@ -123,10 +140,10 @@
               )，以進行串接。
             </li>
             <li>
-              IOS手機應用使用 xib、nib 根據Zeplin上的設計圖進行自定義畫面制作。
+              iOS 手機應用使用 xib、nib 根據Zeplin上的設計圖進行自定義畫面制作。
             </li>
             <li>
-              IOS手機應用使用 RxSwift 進行流程控制， Sourcetree
+              iOS 手機應用使用 RxSwift 進行流程控制， Sourcetree
               進行版本控制外加使用 CocoaPods 安裝第三方套件進行開發。
             </li>
           </ul>
@@ -164,9 +181,63 @@
           <div class="web-sub-body d-flex flex-column">
             <h5 class="mb-3">爆料公社App</h5>
             <ul class="web-sub-body-list">
-              <li>根據設計稿使用xib、nib進行介面撰寫、刻板。</li>
-              <li>使用 Rxswift 進行流程控制。</li>
+              <li>根據設計稿使用 xib、nib 進行介面撰寫、刻板。</li>
+              <li>使用 RxSwift 進行流程控制。</li>
               <li>使用 CocoaPods 安裝第三方套件進行開發。</li>
+              <li>規劃撰寫 API 文件</li>
+                          <li>
+              歡迎點擊下載使用。
+               </li>
+            </ul>
+          </div>
+        </a>
+      </li>
+      <li class="mb-5">
+        <a class="web-sub d-flex" href="https://lurl.cc/gbyIcj">
+          <div class="web-sub-img me-4">
+            <img class="shadow-md" :src="imageTF1" />
+          </div>
+          <div class="web-sub-body d-flex flex-column">
+            <h5 class="mb-3">東南亞多國直播軟體</h5>
+            <ul class="web-sub-body-list">
+              <li>根據設計稿使用 Masonry 純 code 進行介面刻板。</li>
+              <li>串接环信IM即时通讯云製作聊天系統。透過訊息廣播顯示飄屏動畫。</li>
+              <li>由於是線下超簽直播軟體故無法在 Appstore 下載，可以點擊查看App影片內容。</li>
+            </ul>
+          </div>
+        </a>
+      </li>
+      <li class="mb-5">
+        <a class="web-sub d-flex" href="https://testflight.apple.com/join/2uoeREcm">
+          <div class="web-sub-img me-4">
+            <img class="shadow-md" :src="imageCRM" />
+          </div>
+          <div class="web-sub-body d-flex flex-column">
+            <h5 class="mb-3">CRM物流管理App</h5>
+            <ul class="web-sub-body-list">
+              <li>根據設計稿使用 Snapkit 純 code 進行介面刻板。</li>
+              <li>修改專案架構從 MVC 到 MVVM。</li>
+              <li>進行畫面重構從 Autosizing 到 Autolayout。</li>
+              <li>使用 CocoaPods 安裝第三方套件進行開發。</li>
+              <li>目前在測試階段，可點擊使用TestFlight試用。(測試帳密另外索取)</li>
+            </ul>
+          </div>
+        </a>
+      </li>
+      <li class="mb-5">
+        <a class="web-sub d-flex" href="https://talida.org/">
+          <div class="web-sub-img me-4">
+            <img class="shadow-md" :src="imageTalida" />
+          </div>
+          <div class="web-sub-body d-flex flex-column">
+            <h5 class="mb-3">豐盛生命協會網站</h5>
+            <ul class="web-sub-body-list">
+              <li>
+                本專案使用 WordPress 進行開發，架設在 A2 Hosting 虛擬主機上。
+              </li>
+              <li>
+                網頁含有 SSL 安全數位憑證、防火牆設定、網站備份等內容。
+              </li>
             </ul>
           </div>
         </a>
@@ -250,6 +321,10 @@ import imagePoaichBackstage from "@/assets/img/poaich-backstage.png";
 import imageGulpGlassesDesign from "@/assets/img/gulp-glasses-design.png";
 import imageGate5Home from "@/assets/img/gate5-home.png";
 import imageBoomHome from "@/assets/img/boom.png";
+import imageCRM from "@/assets/img/crm.png";
+import imageTF1 from "@/assets/img/tf1.jpg";
+import imageTalida from "@/assets/img/talida.jpg";
+
 export default {
   name: "Resume",
   data() {
@@ -262,6 +337,9 @@ export default {
       imageGulpGlassesDesign: imageGulpGlassesDesign,
       imageGate5Home: imageGate5Home,
       imageBoomHome: imageBoomHome,
+      imageCRM:imageCRM,
+      imageTF1:imageTF1,
+      imageTalida:imageTalida
     };
   },
 
