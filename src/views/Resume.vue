@@ -6,16 +6,17 @@
     >
       <h3 class="pb-3 text-center text-lg-start">About me 關於我</h3>
       <p class="lh-lg">
-        資訊系背景，主要專攻於 iOS 手機應用程式開發與網頁切版。目前著重於 iOS 領域，曾開發經營單日三萬人社群軟體、直播軟體、小型網站前後台建置等的專案開發與頁面設計。
+        我是一位擁有資訊工程系背景的開發者，專注於 iOS 手機應用程式開發和網頁切版。
+        我對 iOS 開發充滿熱情，曾參與開發並經營單日三萬人社群軟體，並且開發直播應用程式等專案，實現了即時視訊和聊天功能，並根據用戶反饋不斷優化功能和提升用戶體驗。
         <br />
         <br />
-        iOS 端主要使用 Swift 與 Objective-C 進行維護與開發。架構建置主要使用 MVC 與 MVVM 架構。可根據需求所提供的 API 文件進行串接並且根據設計稿進行頁面設計。
+        精通 Swift 和 Objective-C 進行 iOS 開發和維護，
+        熟悉使用 MVC 和 MVVM 架構進行應用程式開發，以確保代碼的可讀性和可維護性。       
+        具備 API 串接的能力，能夠根據提供的 API 文件進行串接並有效地處理數據。
+        擅長根據設計稿進行頁面設計，並能確保用戶界面的美觀和易用性。
         <br />
         <br />
-        前端主要使用 Angular 開發，負責 API
-        串接、畫面動態效果、主題色彩配置、設計稿切版...等。
-        <!-- <br /> -->
-        CSS 框架主要使用 Bootstrap 內的 Components 和 utilites 進行開發。
+        前端使用 Angular 開發，負責 API 串接、畫面動態效果、主題色彩配置、設計稿切版...等。 CSS 框架主要使用 Bootstrap 內的 Components 和 Utilites 進行開發。
       </p>
       <ul class="d-flex flex-row">
         <li class="py-2">
@@ -71,7 +72,6 @@
           <hr />
           <ul>
             <li class="py-1">Swift</li>
-            <li class="py-1">RxSwift</li>
             <li class="py-1">Objective-C</li>
             <li class="py-1">MVC / MVVM</li>
             <li class="py-1">API / JSON Parse</li>
@@ -101,7 +101,8 @@
           <ul>
             <li class="py-1">Friebase</li>
             <li class="py-1">Google Cloud</li>
-            <li class="py-1">环信全球消息云</li>
+            <li class="py-1">环信 - 中国IM即时通讯云服务</li>
+            <li class="py-1">声网 Agora</li>            
           </ul>
         </li>
       </ul>
@@ -115,13 +116,16 @@
           <h6>Aug, 2021 ~ Present</h6>
           <ul class="work-list">
             <li>
-              開發 CRM 商業應用 App 與 東南亞直播應用 App。
+              開發 玩家中心 App、越南直播應用 App、CRM 商業應用 App  。
             </li>
             <li>
               iOS 手機應用畫面使用 Snapkit 與 Masonry 根據設計圖純 code 進行自定義畫面制作。
             </li>
              <li>
               iOS 手機應用使用 Swift 與 Objective-C 混編開發。
+            </li>
+            <li>
+              iOS 手機應用使用 Swift 與 JS 交互開發。
             </li>
           </ul>
         </li>
@@ -185,24 +189,41 @@
               <li>使用 RxSwift 進行流程控制。</li>
               <li>使用 CocoaPods 安裝第三方套件進行開發。</li>
               <li>規劃撰寫 API 文件</li>
-                          <li>
-              歡迎點擊下載使用。
-               </li>
+              <li> 交友配對功能開發。(從無到有開發）</li>
+              <li>歡迎點擊下載使用。</li>
             </ul>
           </div>
         </a>
       </li>
       <li class="mb-5">
-        <a class="web-sub d-flex" href="https://lurl.cc/gbyIcj">
+        <a class="web-sub d-flex" href="https://www.youtube.com/shorts/jrpY0vPYwJ8">
           <div class="web-sub-img me-4">
             <img class="shadow-md" :src="imageTF1" />
           </div>
           <div class="web-sub-body d-flex flex-column">
-            <h5 class="mb-3">東南亞多國直播軟體</h5>
+            <h5 class="mb-3">越南多國直播 App</h5>
             <ul class="web-sub-body-list">
               <li>根據設計稿使用 Masonry 純 code 進行介面刻板。</li>
               <li>串接环信IM即时通讯云製作聊天系統。透過訊息廣播顯示飄屏動畫。</li>
               <li>由於是線下超簽直播軟體故無法在 Appstore 下載，可以點擊查看App影片內容。</li>
+              <li>歡迎點擊觀看此款直播 App 使用影片。</li>
+            </ul>
+          </div>
+        </a>
+      </li>
+      <li class="mb-5">
+        <a class="web-sub d-flex" href="https://www.youtube.com/watch?v=Kt7H9oH4f5s">
+          <div class="web-sub-img me-4">
+            <img class="shadow-md" :src="imagePlayCenter" />
+          </div>
+          <div class="web-sub-body d-flex flex-column">
+            <h5 class="mb-3">玩家中心 App</h5>
+            <ul class="web-sub-body-list">
+              <li>網頁遊戲串接。</li>
+              <li>客製化 UI 頁面設計。</li>
+              <li>Swift 與 JS 交互製作</li>
+              <li>Ionic 轉換 Swift</li>
+              <li>歡迎點擊觀看此款直播 App 使用影片。</li>
             </ul>
           </div>
         </a>
@@ -324,6 +345,7 @@ import imageBoomHome from "@/assets/img/boom.png";
 import imageCRM from "@/assets/img/crm.png";
 import imageTF1 from "@/assets/img/tf1.jpg";
 import imageTalida from "@/assets/img/talida.jpg";
+import imagePlayCenter from "@/assets/img/playcenter.png";
 
 export default {
   name: "Resume",
@@ -339,7 +361,8 @@ export default {
       imageBoomHome: imageBoomHome,
       imageCRM:imageCRM,
       imageTF1:imageTF1,
-      imageTalida:imageTalida
+      imageTalida:imageTalida,
+      imagePlayCenter:imagePlayCenter
     };
   },
 
